@@ -15,27 +15,6 @@ body {
     "sidebar main main main main"
     "footer footer footer footer footer ";
 }
-@media screen and (max-width: 600px) {
-  .PageContainer {
-    grid-template-areas:
-      "header header header header header"
-      "main main main main main"
-      "main main main main main"
-      "main main main main main"
-      "footer footer footer footer footer ";
-  }
-  .sidebar {
-    display: none;
-  }
-  .sidebar ul {
-    display: none;
-  }
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .header {
   background-color: #00f;
   color: #fff;
@@ -99,4 +78,25 @@ body {
 }
 #gloria:hover {
   filter: sepia(1);
+}
+@media screen and (max-width: 600px) {
+  .PageContainer {
+    grid-template-areas:
+      "header header header header header"
+      "main main main main main"
+      "main main main main main"
+      "main main main main main"
+      "footer footer footer footer footer ";
+  }
+  .sidebar {
+    display: none;
+  }
+  .sidebar ul {
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
